@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <ItemGroup>
+      <ProjectReference Include="..\AwesomeShop.Services.Orders.Core\AwesomeShop.Services.Orders.Core.csproj" />
+      <ProjectReference Include="..\AwesomeShop.Services.Orders.Infrastructure\AwesomeShop.Services.Orders.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Dtos\InputModels\" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+</Project>
